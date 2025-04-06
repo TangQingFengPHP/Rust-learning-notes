@@ -1,0 +1,34 @@
+# === 编译输出 ===
+**/target/
+
+# === Cargo 构建相关 ===
+**/*.rs.bk
+
+# === 日志、调试文件 ===
+**/*.log
+
+# === 临时文件 ===
+**/*.tmp
+**/*.swp
+**/*.swo
+
+# === 编辑器文件 ===
+# VSCode
+**/.vscode/
+**/*.code-workspace
+
+# JetBrains IDE (如 CLion, IntelliJ Rust)
+**/.idea/
+
+# === 操作系统文件 ===
+**/.DS_Store
+**/Thumbs.db
+
+# === 可执行文件（如果手动输出到项目目录）===
+**/*.exe
+**/*.out
+**/*.bin
+**/*.dll
+**/*.so
+**/*.dylib
+
